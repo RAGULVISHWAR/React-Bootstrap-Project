@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Appcart from "./Appcart";
+import logo from "../logo.png";
 
 const Appnavbar = () => {
   return (
@@ -11,7 +12,7 @@ const Appnavbar = () => {
         <Navbar.Brand href="#home">
           <h2>
             <span>
-              <i class="bi bi-bag-heart"></i> Textile
+              <img src={logo} className="App-logo" alt="logo" /> Textile
             </span>
           </h2>
         </Navbar.Brand>
